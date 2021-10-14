@@ -30,6 +30,11 @@ label, button{
 p,h1,label{
     color: white;
 }
+#message {
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+}
 #Birthday_Img {
     position: absolute;
     top: 100px;

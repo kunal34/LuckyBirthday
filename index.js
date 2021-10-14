@@ -12,7 +12,8 @@ function operateValues(sum, luckyNumber) {
     BirthdayImage2.classList.remove('Imgdisplay');
   } else {
     message.innerText = "Sorry! not a lucky day 🙄";
-
+    BirthdayImage.classList.add('Imgdisplay');
+    BirthdayImage2.classList.add('Imgdisplay');
   }
 }
 
