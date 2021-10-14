@@ -2,10 +2,14 @@ const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#check-number");
 const message = document.querySelector("#message");
+const BirthdayImage = document.querySelector("#Birthday_Img");
+const BirthdayImage2 = document.querySelector("#Birthday_Img2");
 
 function operateValues(sum, luckyNumber) {
   if (sum % luckyNumber === 0) {
     message.innerText = "Hey! that's a lucky day 😍";
+    BirthdayImage.classList.remove('Imgdisplay');
+    BirthdayImage2.classList.remove('Imgdisplay');
   } else {
     message.innerText = "Sorry! not a lucky day 🙄";
 
