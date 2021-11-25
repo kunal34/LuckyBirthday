@@ -11,8 +11,8 @@ It has two input fields in one field you have to enter your date of birth and in
 
 
 # Programming Language:
- - html
- - css 
- - javascript
+ - HTML
+ - CSS 
+ - JAVASCRIPT
 
 [Live Project](https://luckybirthdaymark111.netlify.app/)
